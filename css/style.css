@@ -1,0 +1,179 @@
+.logo__mi{
+    width: 32px;
+}
+@media screen and (max-width:1024px) {
+    .right-nav-icons{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        position: absolute;
+        right: 100px;
+        top: 7px;
+    }
+}
+.nav-link{
+    color: black;
+    border-bottom: solid 2px transparent;
+}
+.nav-link:hover{
+    color: #ff6900;
+    border-bottom: solid 2px #ff6900;
+}
+.right-nav-icons .nav-link{
+    color: black;
+    border-bottom: solid 0px;
+}
+.right-nav-icons .nav-link:hover{
+    color: black;
+    border-bottom: solid 0px;
+}
+.logo__mi .logo__home{
+    transform: translateX(-100%);
+    transition: ease-in-out 0.2s;
+}
+.logo__mi:hover .logo__home{
+    transform: translateX(0);
+    transition: ease-in-out 0.2s;
+}
+.carousel-caption{
+    right: auto;
+    left:10%;
+    text-align: left;
+    bottom: auto;
+    top: 35%;
+}
+.slide__title3{
+    color: white;
+}
+.slide__subtitle3{
+    color: white;
+}
+.slide__title{
+    color: black;
+}
+.slide__subtitle{
+    color: black;
+}
+.content-img-captions{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.content-img-captions h1{
+    font-size: 1.6rem;
+    color: white;
+}
+.content-img-captions h5 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.content-img-captions h5 a:hover{
+    text-decoration: underline;
+}
+.content-img-captions h5 i{
+    color: white;
+}
+.content-img-captions-laptop{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translateX(-25%);
+    text-align: center;
+}
+.content-img-captions-laptop h1{
+    font-size: 1.5rem;
+    color: white;
+}
+.content-img-captions-laptop h5 a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+}
+.content-img-captions-laptop h5 a:hover{
+    text-decoration: underline;
+}
+.content-img-captions-laptop h5 i{
+    color: white;
+}
+.content-img-captions-trimmer{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translateX(-25%);
+    text-align: center;
+}
+.content-img-captions-trimmer h1{
+    font-size: 1.5rem;
+    color: black;
+}
+.content-img-captions-trimmer h5 a{
+    text-decoration: none;
+    font-weight: 600;
+    color: orange;
+    font-size: 0.7rem;
+}
+.content-img-captions-trimmer h5 a:hover, .xiaomi-care-caption a:hover{
+    text-decoration: underline;
+}
+.content-img-captions-trimmer h5 i{
+    color: orange;
+}
+.box-shadow:hover{
+    box-shadow: 1px 1px 4px 2px rgb(0,0,0, 0.1);
+}
+.box-link{
+    cursor: pointer;
+}
+.content-bg{
+    background-color: rgb(227, 226, 225);
+}
+.xiaomi-care-caption a{
+    text-decoration: none;
+    color: black;
+}
+.box-padding{
+    padding-bottom: 50px;
+}
+.footer{
+    color: white;
+}
+.footer ul{
+    padding: 0px;
+}
+.footer ul li{
+    list-style: none;
+    line-height: 2rem;
+}
+.footer ul li a{
+    color: gray;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.footer ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footer-social-icons a{
+    font-size: 1.4rem;
+    color: grey;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.footer-social-icons a:hover{
+    color: white;
+}
+.subscribe{
+    border: solid 1px grey;
+    border-radius: 10px;
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 3px;    
+}
+.arrow{
+    color: grey;
+    font-size: 1rem;
+    font-weight: bold;
+}
